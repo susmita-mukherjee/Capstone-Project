@@ -1,10 +1,10 @@
 <b>Sparkify Capstone Project:</b> Udacity Data Science Nanodegree Capstone Project
 
 <b>Installation:</b> The modules used in the analysis are the following:
-• pyspark
-• numpy
-• pandas
-• matplotlib
+<br>• pyspark
+<br>• numpy
+<br>• pandas
+<br>• matplotlib
 
 <b>Project Motivation:</b> The aim of the analysis is to be able to understand and predict the behavior of a user when he/she decides to cancel his/her subscription. In order to gain insights form the data, exploratory data analysis, data processing and machine learning techniques will be implemented.
 
@@ -13,8 +13,8 @@
 <b>Problem Statement:</b> We have logs of all user actions performed in “Sparkify” application; our intent is to understand from this dataset which user behaviors can help us predict whether users will “churn”.
 
 <b>Files Description:</b> The files leveraged/created as part of the project are the following:
-• mini_sparkify_event_data.json: The dataset used for the analysis.
-• Sparkify.ipynb: The jupyter notebook contains all the analysis.
+<br>• mini_sparkify_event_data.json: The dataset used for the analysis.
+<br>• Sparkify.ipynb: The jupyter notebook contains all the analysis.
 
 <b>Licensing:</b> The dataset used for this analysis belongs to Udacity.
 
@@ -27,9 +27,9 @@
 <b>Feature Engineering:</b> We have shortlisted key features such as Gender, Level etc. Also, we have created additional features at user level which include "Songs Listened", "Total Sessions", "Average Session Time" etc.
 
 <b>Modeling Results:</b> We ran multiple models and selected f1-score as an evaluation metric because this is a class imbalance problem and high accuracy can be achieved by simply predicting the dominated class all the time. Below we have captured f1 score for each model:
-Logistic regression (f1 score 0.81)
-Decision Tree Classifier (f1 score 0.84)
-Random Forest (f1 score 0.83)
+<br>Logistic regression (f1 score 0.81)
+<br>Decision Tree Classifier (f1 score 0.84)
+<br>Random Forest (f1 score 0.83)
 we decided to move forward with Decision Tree Classifier model because it is performing slightly better than rest of the models in terms of f1 score.
 
 <b>Conclusion:</b> This exercise will help us identify the users that might churn in near future and we can control the attrition rate by providing competitive benefits and perks to these users or by improving customer service, support etc.
